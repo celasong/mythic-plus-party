@@ -1,0 +1,7 @@
+## Interface: 90207
+## Version: 1.0.0
+## Title: Mythic Plus Party
+## Notes: For doling out another type of fake gamer points
+## Author: Celasong
+
+mythic-plus-party.lua
