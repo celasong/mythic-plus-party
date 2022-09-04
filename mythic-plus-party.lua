@@ -71,5 +71,5 @@ end
 -- IDEA:
 -- Run slash command, pulls message from a pool of messages randomly, prints message to terminal
 -- /mpss ?      
--- TO DO: Lots, maybe a countdown? play music? git repo for versioning? Refine frames etc?
+-- TO DO: Lots, maybe a countdown? play music? big spin wheel with complete interface?
 
