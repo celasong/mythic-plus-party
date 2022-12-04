@@ -16,17 +16,22 @@ mpss_messages = { "Whoever used their key for the dungeon run",
 -- Slash command definitions
 SLASH_MPSS1 = "/mpss"
 SLASH_MPSS2 = "/superstar"
+SLASH_MPSS3 = "/mps"
 
 SLASH_DICE1 = "/dice"
+
+SLASH_TEST1 = "/test1"
 
 -- Slash command functions
 SlashCmdList.MPSS = function()
     print(mpss_messages[math.random(10)])
+end
 
+SlashCmdList.MPSS = function()
+    SendChatMessage(mpss_messages[math.random(10)],"party")
 end
 
 SlashCmdList.DICE = function()
-    
     if enabled == true then -- Currently not working? Confirmed, print statement not firing.
         print("Enabled flag checked")
         f:Hide()
@@ -72,4 +77,18 @@ end
 -- Run slash command, pulls message from a pool of messages randomly, prints message to terminal
 -- /mpss ?      
 -- TO DO: Lots, maybe a countdown? play music? big spin wheel with complete interface?
+
+-- test ground -- make an options panel? maybe include it in a different file?
+
+SlashCmdList.TEST = function()
+
+    local f = CreateFrame("Frame")
+
+    f.defaults = {
+        someOption = true,
+    }
+
+end
+
+
 
