@@ -65,12 +65,12 @@ mpss_messages = { "Whoever had the most interrupts!",
 }
 
 -- Slash command definitions
-
-SLASH_MPSS = "/mps"
+ 
+SLASH_MPSS1 = "/mpss"
 
 -- Slash command functions
 
-SlashCmdList.MPS = function()
+SlashCmdList.MPSS = function()
     SendChatMessage(mpss_messages[math.random(60)],"party")
 end
 
