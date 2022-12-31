@@ -62,7 +62,13 @@ mpss_messages = { "Whoever had the most interrupts!",
                     "Anyone who is homeless!",
                     "Anyone who has children!",
                     "Anyone who is childless!",
-                    "BLUE SHELL!!!"
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
+                    "BLUE SHELL!!!",
 }
 
 -- Slash command definitions
